@@ -150,38 +150,6 @@
     src="./screens/numeric_types.svg">
 </h3>
 
-<p
-  align="capitalize"
->
-  Para sabermos o tipo de um dado em uma variável podemos utilizar o <strong>type()</strong>
-</p>
-
-```python
- type(5.8)
-```
-
-```python
- type(-8)
-```
-
-<p
-  align="capitalize"
->
-  Ainda podemos utilizar funções <strong>built-in</strong> como o <strong>int()</strong> para converter números para um tipo inteiro ou <strong>float()</strong> para converter para um número com ponto flutuante.
-</p>
-
-```python
- int(5.4)
-```
-
-```python
- int(-8.4)
-```
-
-```python
- float(125)
-```
-
 ### OPERAÇÕES MATEMÁTICAS
 
 <p
@@ -331,6 +299,83 @@
   ou no Português Funções Internas, são funções já incorporadas na própria linguagem sem necessidade de importações ou implementações avançadas.
 </p>
 
+#### TIPO DE UMA VARIÁVEL
+
+<p
+  align="capitalize"
+>
+  Para sabermos o tipo de um dado em uma variável podemos utilizar o <strong>type()</strong>
+</p>
+
+```python
+ type(5.8)
+```
+
+```python
+ type(-8)
+```
+
+<p
+  align="capitalize"
+>
+  Também podemos utilizar o <strong>TYPE</strong> para outros tipos de dados.
+</p>
+
+```python
+ # Variável do tipo String
+ name = 'Armando'
+ type(name)
+```
+
+#### CONVERSÃO
+
+<p
+  align="capitalize"
+>
+  Podemos utilizar funções <strong>built-in</strong> como o <strong>int()</strong> para converter números para um tipo inteiro ou <strong>float()</strong> para converter para um número com ponto flutuante.
+</p>
+
+```python
+ int(5.4)
+```
+
+```python
+ int(-8.4)
+```
+
+```python
+ float(125)
+```
+
+#### HEXADECIMAL E BINÁRIO
+
+<p
+  align="capitalize"
+>
+  Com as funções <strong>hex</strong> podemos converter números inteiros para o padrão hexadecimal. <strong>Hexadecimal</strong> é um sistema de numeração posicional que representa os números em base 16, ou seja, utilizando 16 símbolos.
+</p>
+
+```python
+ hex(3900)
+```
+
+```python
+ hex(10)
+```
+
+<p
+  align="capitalize"
+>
+  Com a função <strong>bin</strong> podemos converter números inteiros em binário. O Sitema de Numeração <strong>Binário</strong> ou de base 2 é um sistema de numeração posicional em que todas as quantidades estão representadas com base em apenas dois números.
+</p>
+
+```python
+ bin(23)
+```
+
+```python
+ hex(7090)
+```
 
 <br
 />
