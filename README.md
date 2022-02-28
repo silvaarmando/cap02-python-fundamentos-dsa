@@ -299,6 +299,16 @@
   ou no Português Funções Internas, são funções já incorporadas na própria linguagem sem necessidade de importações ou implementações avançadas.
 </p>
 
+<h3
+  align="center"
+>
+  <img
+    alt="Built-in Functions em Python"
+    width=""
+    src="./screens/builtin-functions.svg"
+  >
+</h3>
+
 #### TIPO DE UMA VARIÁVEL
 
 <p
@@ -382,8 +392,123 @@
 
 ## VARIÁVEIS
 
+<p
+  align="capitalize"
+>
+  Uma
+  <a
+    href="https://realpython.com/python-variables/"
+  >
+    Variável
+  </a>
+  é como um nome anexado a um objeto específico. No Python, as variáveis não precisam ser declaradas ou definidas com antecedência, como é o caso em muitas outras linguagens de programação. Para criar uma variável, basta atribuir um valor e começar a usá-lo. A atribuição é feita com um único sinal de igual (=).
+</p>
 <br
 />
+
+```python
+ teste = 1
+```
+
+<p
+  align="capitalize"
+>
+  O valor pode ser impresso na tela utilizando a função built-in
+  <strong
+  >
+    print()
+  </strong>
+</p>
+
+```python
+ print(teste)
+```
+
+<p
+  align="capitalize"
+>
+  Podemos alterar o valor dessa variável, assim como exibilo em uma prompt intérprete em uma sessão REPL(Read–eval–print loop) sem a necessidade de <strong>print()</strong>.
+</p>
+
+```python
+ teste = 1000
+ teste
+```
+
+<p
+  align="capitalize"
+>
+  Também é possível fazer declarações multiplas de variáveis, seja esse a um mesmo valor, como a valores diferentes.
+</p>
+
+```python
+ x, y, z = 153
+ x, y, z = 100, 50, 3
+```
+
+<p
+  align="capitalize"
+>
+  Em muitas linguagens de programação, as variáveis são digitadas estaticamente, como tendo inicialmente um tipo de dados específico, e qualquer valor atribuído a ela durante sua vida útil tem sempre esse tipo de valor. No Python as variáveis não estão sujeitas a esta restrição. Aqui uma variável pode receber um valor de um tipo e, posteriormente, reatribuir um valor de um tipo diferente.
+</p>
+
+```python
+  example = 22.37
+  print(example)
+  # 22.37
+
+  example = 'Eu sou groot!'
+  print(example)
+  # Eu sou groot!
+```
+
+<p
+  align="capitalize"
+>
+  As variáveis em Python podem ser escritas com letras, números e underline, mas não podem começar com números.
+</p>
+
+```python
+ name01 = 'Coffee'
+ numbers = 12321
+```
+
+<p
+  align="capitalize"
+>
+  O python é <a href="https://pt.wikipedia.org/wiki/Case-sensitive">case-sensitive</a> o que significa que as palavras depois da primeira são capitalizadas. Não se limitando a isso, assim como na maioria das linguagens de programação, podemos utilizar <strong>Snake Case</strong> ou <strong>Pascal Case</strong> na hora de escrever suas variáveis.
+</p>
+
+```python
+ MyName = 'Armando Silva'
+ myName = 'Armando Silva'
+ my_name = 'Armando Silva'
+```
+
+<p
+  align="capitalize"
+>
+  As palavras reservadas em Python, nomes de funções especias no idioma. Até o Python 3.6 eram 33 palavras reservadas.
+</p>
+
+<h3
+  align="center"
+>
+  <img
+    src="./screens/reserved_words.svg"
+  />
+</h3>
+
+<p
+  align="capitalize"
+>
+  Essas palavras não podem ser usadas como nome de variáveis.
+</p>
+
+```python
+ and = 'Let is go'
+ # SyntaxError: sintaxe inválida
+```
 
 ## STRINGS
 
