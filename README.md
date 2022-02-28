@@ -300,11 +300,11 @@
 </p>
 
 <h3
-  align="center"
+  align="capitalize"
 >
   <img
     alt="Built-in Functions em Python"
-    width=""
+    width="450em"
     src="./screens/builtin-functions.svg"
   >
 </h3>
@@ -492,7 +492,7 @@
 </p>
 
 <h3
-  align="center"
+  align="capitalize"
 >
   <img
     src="./screens/reserved_words.svg"
