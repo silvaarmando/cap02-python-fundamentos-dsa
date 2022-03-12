@@ -512,6 +512,69 @@
 
 ## STRINGS
 
+<p
+  align="capitalize"
+>
+  <a
+    href=""
+  >
+    Strings
+  </a> não apenas em <strong>Python</strong>, como na maioria das linguagens de programação, são conjuntos de caracteres de texto que podem ser compreendidos como representações de informações escritas dentro de um código
+</p>
+
+```python
+ 'Isso é uma String!'
+```
+
+<p
+  align="capitalize"
+>
+  Podemos criar uma string em Python usando aspas simples ou duplas e podemos imprimir uma variável com um valor tipo <strong>String</strong> usando a função built-in <strong>print()</strong>
+</p>
+
+```python
+ 'String com aspas simples'
+```
+
+```python
+ "String com aspas duplas"
+```
+
+```python
+ print("Imprimindo uma String em uma variável com aspas duplas e 'Simples'")
+```
+
+### INDEXAÇÃO DE STRINGS
+
+<p
+  align="capitalize"
+>
+  Para fazer a indexação de uma String é necessário usar colchetes <strong>[ ]</strong> para manipular o texto de diversas formas.
+</p>
+
+```python
+ index = 'Estou estudando na Data Science Academy'
+
+ print(index)
+```
+
+<p
+  align="capitalize"
+>
+  Ao indexar uma String podemos retornar o primeiro caractere <code>index[0]</code> e podemos retornar qualquer caractere apartir daí.
+</p>
+
+```python
+ index[0]
+ # 'E'
+```
+
+```python
+ index[6]
+ # 'e'
+```
+
+
 <br
 />
 
