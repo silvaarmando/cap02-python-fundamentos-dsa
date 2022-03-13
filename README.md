@@ -544,6 +544,11 @@
  print("Imprimindo uma String em uma variável com aspas duplas e 'Simples'")
 ```
 
+```python
+ # É possível utilizar o \n para quebra de linha em uma STRING
+ print('A primeira quebra de linha.\n Segunda quebra de linha! \n')
+```
+
 ### INDEXAÇÃO DE STRINGS
 
 <p
@@ -574,6 +579,212 @@
  # 'e'
 ```
 
+<p
+  align="capitalize"
+>
+  Podemos usar um <strong>:</strong> para executar um <strong>slicing</strong> que faz a leitura de tudo até um ponto designado, lembrando que a indexação em Python começa pela posição 0.
+</p>
+
+```python
+ # Retorna todos os elementos da string, começando pela posição até o fim da string.
+ index[1:]
+```
+
+```python
+ # A String original permanece a mesma.
+ print(index)
+```
+
+```python
+ # Retorna tudo até a posição 5
+ index[:5]
+```
+
+```python
+ # Retorna a string inteira
+ index[:]
+```
+
+```python
+ # Podemos usar indexação negativa e retorna a string de trás para frente
+ index[-1]
+```
+
+```python
+ # Retornando tudo exceto o último caractere
+ index[:-1]
+```
+
+<p
+  align="capitalize"
+>
+ É possível utilizar a notação de índice e fatiar a <strong>string</strong> em pedaços específicos (o padrão é 1). Podemos usar dois pontos duas vezes em uma linha e, em seguida, um número que especifica a frequência para retornar elementos.
+</p>
+
+```python
+ index[::1]
+ # 'Estou estudando na Data Science Academy'
+```
+
+```python
+ index[::2]
+ # 'Etuetdnon aaSineAaey'
+```
+
+```python
+ index[::-1]
+ # 'ymedacA ecneicS ataD an odnadutse uotsE'
+```
+
+### PROPRIEDADES DE STRINGS
+
+```python
+ course = 'Python Fundamentos para Análise de Dados'
+```
+
+<p
+  align="capitalize"
+>
+ Não é possível alterar uma String em Python, mas é possível concatenar uma String, mas uma String é um objeto imutável.
+</p>
+
+```python
+ # Alterando um caractere
+ course[0] = 'J'
+```
+
+```python
+ # Concatenando uma string
+ course + 'é o melhor curso de fundamentos python.'
+```
+
+```python
+ course = course + 'é o melhor curso de fundamentos python.'
+```
+
+```python
+ print(course)
+```
+
+```python
+ # Podemos utilizar o símbolo de multiplicação para fazer repetição de caracteres.
+ letra = 'AV'
+ letra * 5
+```
+
+### FUNÇÕES BUILTIN-IN DE STRINGS
+
+```python
+ name = 'Data Science Academy'
+```
+
+<p
+  align="capitalize"
+>
+  Para converter uma
+  <code
+  >
+    string</code>
+  para converter um texto para caixa alta ou maiusculas podemos utilizar o método <code
+  >
+    upper()</code>.
+</p>
+
+```python
+ # Upper Case
+ name.upper()
+```
+
+<p
+  align="capitalize"
+>
+  Para converter para <strong
+  >lower case</strong> é utilizado o método <code
+  >lower()</code>.
+</p>
+
+```python
+ # Lower Case
+ name.lower()
+```
+
+<p
+  align="capitalize"
+>
+  Para dividir uma string por espaços é utilizado o método <code
+  >split()</code>
+</p>
+
+```python
+ name.split()
+ # ['Data', 'Science', 'Academy']
+```
+
+<p
+  align="capitalize"
+>
+  O método
+  <code
+  >join()</code> retorna uma string na qual os elementos da sequência foram unidos por um separador <strong>str</strong>.
+</p>
+
+```python
+ join_name = ''
+ join_name = join_name.join(name)
+ # 'Data Science Academy'
+```
+
+<p
+  align="capitalize"
+>
+  O método
+  <code
+  >strip()</code> remove os espaços em branco no começo e no final de uma <strong>string</strong>.
+</p>
+
+```python
+ name = '  Python para Análise de Dados   '
+ name.strip()
+ # 'Python para Análise de Dados'
+```
+
+<p
+  align="capitalize"
+>
+  O método
+  <code
+  >len()</code> mostra a quantidade de caracteres de uma <strong>string</strong>.
+</p>
+
+```python
+ x = 'Python para Análise de Dados'
+ len(x)
+ # 28
+```
+
+<p
+  align="capitalize"
+>
+  O método
+  <code
+  >find()</code> localiza dentro uma <strong>string</strong> um conjunto de caracteres.
+</p>
+
+```python
+ x = 'Python para Análise de Dados'
+ x.find('Dados')
+ # 23
+```
+
+<br
+/>
+
+### FUNÇÕES STRING
+
+<br
+/>
+
+### OPERADORES RELACIONAIS
 
 <br
 />
