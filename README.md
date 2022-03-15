@@ -1,14 +1,18 @@
 <h1
   align='center'
 >
-  <a
-    href="https://www.datascienceacademy.com.br/"
+  <h3
+      align="center"
   >
-    <img
-      width="350em"
-      src="./screens/logo_dsa.png"
+    <a
+      href="https://www.datascienceacademy.com.br/"
     >
-  </a>
+      <img
+        width="350em"
+        src="./screens/logo_dsa.png"
+      >
+    </a>
+  </h3>
 
   <h2
     align="center"
