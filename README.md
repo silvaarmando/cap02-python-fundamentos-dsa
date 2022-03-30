@@ -784,6 +784,64 @@
 <br
 />
 
+<p
+  align="capitalize"
+>
+  Funções String são funções especificas para strings.
+</p>
+
+```python
+  x = 'Seja bem-vindo ao Universo🌎 de Python'
+```
+
+<p
+  align="capitalize"
+>
+  A funçao
+  <strong
+  >
+  Capitalize
+  </strong>
+  é utilizada para deixar o primeiro caractere como maiúscula.
+</p>
+
+```python
+  x.capitalize()
+  # SEJA BEM-VINDO AO UNIVERSO DE PYTHON
+```
+
+<p
+  align="capitalize"
+>
+  A funçao
+  <strong
+  >
+  Count
+  </strong>
+  retorna a primeira ocorrência do caractere dentro do primeiro conjunto caracteres em que ele está presente.
+</p>
+
+```python
+  x.count('b')
+  # 0
+```
+
+<p
+  align="capitalize"
+>
+  A funçao
+  <strong
+  >
+  Find
+  </strong>
+  retorna a primeira ocorrência do caractere dentro da string comleta.
+</p>
+
+```python
+  x.find('b')
+  # 6
+```
+
 ### OPERADORES RELACIONAIS
 
 <br
