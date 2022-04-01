@@ -844,6 +844,24 @@
 
 ### OPERADORES RELACIONAIS
 
+<p
+  align="capitalize"
+>
+  <strong
+  >
+    Operadores Relacionais
+  </strong>
+   são normalmente usados ​​em contextos booleanos como instruções condicionais e de loop para direcionar o fluxo do programa.
+</p>
+
+<h3
+  align="center"
+>
+  <img
+    src="./screens/relational-operator-in-python.png"
+  />
+</h3>
+
 <br
 />
 
