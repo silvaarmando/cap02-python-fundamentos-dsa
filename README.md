@@ -260,7 +260,6 @@
   Também podemos utilizar números com pontos flutuante(float) para realizar as mesmas operações.
 </p>
 
-
 ```Python
 # Soma
 6.7 + 8.3 + 5
@@ -739,7 +738,11 @@
 >
   O método
   <code
-  >strip()</code> remove os espaços em branco no começo e no final de uma <strong>string</strong>.
+  >strip()</code> remove os espaços em branco no começo e no final de uma
+  <strong
+  >
+    string
+  </strong>.
 </p>
 
 ```python
@@ -753,7 +756,11 @@
 >
   O método
   <code
-  >len()</code> mostra a quantidade de caracteres de uma <strong>string</strong>.
+  >len()</code> mostra a quantidade de caracteres de uma
+  <strong
+  >
+    string
+  </strong>.
 </p>
 
 ```python
@@ -767,7 +774,11 @@
 >
   O método
   <code
-  >find()</code> localiza dentro uma <strong>string</strong> um conjunto de caracteres.
+  >find()</code> localiza dentro uma
+  <strong
+  >
+    string
+  </strong> um conjunto de caracteres.
 </p>
 
 ```python
