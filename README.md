@@ -890,8 +890,98 @@
   Para criar uma lista de dados é necessário inserir os dados entre colchetes <strong>[ ]</strong>.
 </p>
 
+```python
+  lista_da_feira = [ 'laranjas', 'maçãs', 'farinha', 'queijo' ]
+```
+
+```python
+  # Imprimindo uma lista em python
+
+  print(lista_da_feira)
+  # ['laranjas', 'maçãs', 'farinha', 'queijo']
+```
+
+<p
+  align="capitalize"
+>
+  Para imprimir um item da lista pelo indice, é utilizado a mesma marcação que em variáveis do tipo String, utilizando colchetes com o número da posição em que o item se encontra.
+</p>
+
+```python
+  lista_da_feira[2]
+```
+
+<p
+  align="capitalize"
+>
+  Também é possível criar listas com vários tipos de dados diferentes já que as listas em python não possuem restrição de tipo. 
+</p>
+
+```python
+  # Lista com valores de tipos diferentes
+  lista_variada = [300, 8.2, "Análise de Dados", true]
+```
+
+```python
+  # Definindo cada da lista a uma variável
+  valor_number = lista_variada[0]
+  valor_float = lista_variada[1]
+  valor_string = lista_variada[2]
+  valor_boolean = lista_variada[3]
+```
+
 <br
 />
+
+### ATUALIZANDO ITEMS NA LISTA
+
+<br/>
+
+<p
+  align="capitalize"
+>
+  Para atualizar um item em uma lista é preciso definir pelo indice qual item queremos atualizar.
+</p>
+
+```python
+  lista_variada[1]
+```
+
+<p
+  align="capitalize"
+>
+  Depois é possível definir por qual item ele deve ser alterado utilizando o operador de igual <strong>=</strong>.
+</p>
+
+```python
+  lista_variada[1] = 'banana'
+```
+
+```python
+  print(lista_variada)
+  # [300, 8.2, 'banana', true]
+```
+
+
+### DELETANDO UM ITEM EM UMA LISTA
+
+<p
+  align="capitalize"
+>
+  Para se deletar um item especifico em uma lista é utilizada a mesma notação de indice, mas dessa vez é utilizado a função <strong>del</strong> na frente da expressão.
+</p>
+
+```python
+  # Deletando um item da lista
+  del lista_variada[2]
+```
+
+```python
+  # Imprimindo a lista com os dados alterados
+  print(lista_variada)
+```
+
+<br/>
 
 ## DICIONÁRIOS
 
