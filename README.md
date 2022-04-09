@@ -882,6 +882,14 @@
 
 ## LISTAS
 
+<p
+  align="capitalize"
+>
+  Uma lista (list) em Python é uma estrutura de dados utilizada para criar sequências ou coleções ordenadas de valores. Cada valor na lista é identificado por um índice. O valores que formam uma lista são chamados elementos ou itens.
+
+  Para criar uma lista de dados é necessário inserir os dados entre colchetes <strong>[ ]</strong>.
+</p>
+
 <br
 />
 
