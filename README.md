@@ -866,7 +866,7 @@
   >
     Operadores Relacionais
   </strong>
-   são normalmente usados ​​em contextos booleanos como instruções condicionais e de loop para direcionar o fluxo do programa.
+   são normalmente usados ​​em contextos booleanos como instruções condicionais e de loop para direcionar o fluxo do programa, podendo ser usado com strings e vários outros tipos de dados e em contextos diferentes.
 </p>
 
 <h3
@@ -911,6 +911,7 @@
   lista_da_feira[2]
 ```
 
+### USANDO DADOS DIFERENTES EM UMA LISTA
 <p
   align="capitalize"
 >
@@ -982,6 +983,50 @@
 ```
 
 <br/>
+
+### LISTAS ANINHADAS
+
+<p
+  align="capitalize"
+>
+  Como as listas em Python não tem restrição de tipo fixo, é possível fazer aninhamento de listas, ou seja, colocar listas dentro de outras listas, e até mesmo fazer o agrupamento de um conjunto de listas.
+</p>
+
+```python
+  lista_de_listas = [[1, 9, 4], [23, 8, 12], [21, 22, 7.8]]
+```
+
+```python
+  print(lista_de_listas)
+  # [[1, 9, 4], [23, 8, 12], [21, 22, 7.8]]
+```
+
+<p
+  align="capitalize"
+>
+  Também é possível fazer o fatiamento de listas aninhadas.
+</p>
+
+```python
+  listas_tipos = [[23, 22, 15], ['Uva', 'Maçã', 'Maracujá'], [31.34, 11.97, 8.12]]
+```
+
+```python
+  lista_de_inteiros = listas_tipos[0]
+  lista_de_strings = listas_tipos[1]
+  lista_de_floats = listas_tipos[2]
+  print(lista_de_inteiros, lista_de_strings, lista_de_floats)
+```
+
+```python
+  primeiro_inteiro = lista_de_inteiros[0]
+  segunda_string = lista_de_strings[1]
+  terceiro_float = lista_de_floats[2]
+
+  print(primeiro_inteiro, segunda_string, terceiro_float)
+```
+
+
 
 ## DICIONÁRIOS
 
