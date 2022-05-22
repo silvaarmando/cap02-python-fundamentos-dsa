@@ -1,0 +1,8 @@
+print('->>->>->>->>->>->>->>->>->>->>->>->>->>->>->>->>->>')
+print('')
+frase = str(input('Type a sentence: ').lower().strip())
+print(f"The letter A appeared {frase.count('a')} times in the sentense.")
+print(f"The letter A first appeared in {frase.find('a')+1}")
+print(f"The letter A last appeared in {frase.rfind('a')+1}")
+print('')
+print('<><><><><><><><><><><><><><><><><><><><><><><><><><>')

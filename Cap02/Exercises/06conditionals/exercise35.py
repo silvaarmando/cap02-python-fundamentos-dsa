@@ -1,0 +1,10 @@
+print('*'*45)
+print('                     SALARY INCREASE                 ')
+print('*'*45)
+name = str(input("Your name: "))
+salary = float(input("Your salary: R$ "))
+if salary > 1250:
+  increase = salary + (salary * 10 / 100)
+  print(f'Hi {name} good morning, your salary is {salary} $,')
+  print(f'with increase of fifteen per cente will be {increase} $.')
+print('*'*45)

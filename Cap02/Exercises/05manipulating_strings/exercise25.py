@@ -1,0 +1,6 @@
+print('<<<<<<<<<<< DOES YOUR NAME HAVE SILVA? >>>>>>>>>>>')
+print(' ')
+name = str(input('What is your full name? ').strip().upper())
+print(f"Does your name have SILVA? {'SILVA' in name}")
+print(' ')
+print('<<<<<<<<<<<<<<<<<<<<<< FIM >>>>>>>>>>>>>>>>>>>>>>>')

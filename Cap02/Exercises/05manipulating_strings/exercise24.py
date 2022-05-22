@@ -1,0 +1,8 @@
+print('<><><><><><><><><><><><><><><><><><><><><><><><><>')
+print('          Does your city start with SANTO?           ')
+print('<><><><><><><><><><><><><><><><><><><><><><><><><>')
+print('')
+city = str(input('What is the name of your city? ').strip().upper())
+print(f"Does this city start with SANTO? {city[:5] == 'SANTO'}")
+print(' ')
+print('<><><><><><><><><><><><><><><><><><><><><><><><><>')

@@ -1,0 +1,3 @@
+import pywhatkit
+
+text_to_handwriting("Cellular Respiration       The main function of cellular respiration is to break down glucose to form energy. What is cellular respiration in simple terms? Cellular respiration can be defined simply as a series of metabolic processes that take place within a cell. Biochemical energy is harvested from organic substances (e.g. glucose) and then stored in energy-carrying biomolecules (e.g. adenosine triphosphate or ATP) for use in the energy-requiring activities of the cell.", save_to="cellular_respiration", rgb=(0, 0, 225))
