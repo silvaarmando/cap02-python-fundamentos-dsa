@@ -5,6 +5,6 @@
 # mixer.music.play()
 # input('PLAYING NOW')
 
-from playsound import playsound
+import playsound
 
-playsound('exercicio21.mp3')
+playsound.playsound('exercicio21.mp3')
