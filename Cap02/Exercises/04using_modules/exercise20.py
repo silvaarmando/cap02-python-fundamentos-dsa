@@ -1,3 +1,5 @@
+# Exercise 20 - Drawing an Item List
+
 from random import shuffle
 
 first = str(input('First student: '))
