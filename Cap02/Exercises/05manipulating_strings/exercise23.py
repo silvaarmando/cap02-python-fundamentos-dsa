@@ -4,13 +4,14 @@ print(f'Unidade: {n[0]}')
 print(f'Dezena: {n[1]}')
 print(f'Centena: {n[2]}')
 print(f'Milhar: {n[3]}')"""
-n = int(input('Type a number: '))
-unidade = n // 1 % 10
-dezena = n // 10 % 10
-centena = n // 100 % 10
-milhar = n // 1000 % 10
-print(f'Analyzing the number {n}')
-print(f'   Unity: {unidade}')
-print(f'     Ten: {dezena}')
-print(f' Hundred: {centena}')
-print(f'Thousand: {milhar}')
+
+n_interger = int(input('Type a integer: '))
+unity = n_interger // 1 % 10
+ten = n_interger // 10 % 10
+hundred = n_interger // 100 % 10
+thousand = n_interger // 1000 % 10
+print(f'Analyzing the number {n_interger}')
+print(f'   Unity: {unity}')
+print(f'     Ten: {ten}')
+print(f' Hundred: {hundred}')
+print(f'Thousand: {thousand}')
