@@ -1,3 +1,5 @@
+# Exercise 018 - Returning the Hypotenuse based on the Legs
+
 from math import hypot
 
 co = float(input('Cateto Oposto: '))

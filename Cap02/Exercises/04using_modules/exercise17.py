@@ -1,3 +1,5 @@
+# Exercise 017 - Breaking Int Number
+
 from math import trunc
 
 num = float(input('Digite um valor: '))
