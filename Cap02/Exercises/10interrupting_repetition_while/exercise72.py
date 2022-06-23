@@ -1,8 +1,8 @@
 total = greader_thousand = counter = smaller = 0
 cheap = ''
 while True:
-  product = "What's the product name? "
-  price = "What's the price of the product? "
+  product = str(input("What's the product name? "))
+  price = int(input("What's the price of the product? "))
   total += price
   counter +=  1
 

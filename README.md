@@ -1030,8 +1030,107 @@
 
 ## DICIONÁRIOS
 
+<p
+  align="capitalize"
+>
+  Dicionários em Python é uma estrutura de dados formada apartir de uma coleção de items armazenada de formas não ordenada, seus elementos contém uma chave e um valor. A chave serve para indexar o elemento dentro do dicionário e o valor pode ser definido como qualquer valor aceitável ou estrutura de dados dentro do Python.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sua sintáxe básica é formada por <strong>chaves { }</strong>, e os valores chave e valor são separados por <strong>dois pontos :</strong> dentro da sintáxe do python, ou seja dicionários são mapeamentos de chaves e valores
+</p>
+
+<h6
+  align="center"
+>
+  <img
+    src="./screens/dicinonarios-python.png"
+    alt="Imagem de direito autoral da TreinaWeb, essa imagem apresenta o nome dicionários com a logo do Python e um exemplo da estrutura de dados dicionário"
+    width="650em"
+  />
+</h6>
+
+### CRIANDO DICIONÁRIOS
+
+<p
+  align="capitalize"
+>
+  Existem basicamente 6 maneiras de se criar um dicionário em Python.
+</p>
+
+<p
+  align="capitalize"
+>
+  1ª Podemos criar um dicionário da forma mais tradicional, atribuindo dentro de uma variável a abertura de uma chave, e inserindo pares chaves e valor, separando os valores com <strong>dois pontos <code>:</code></strong>, e depois fechado chaves.
+</p>
+
+```python
+>>> feira = { 'morangos': 24, 'bananas': 18, 'laranjas': 12, 'melancias': 3 }
+```
+
+<p
+  align="capitalize"
+>
+  2ª Também é possível utilizar a função built-in <code>dict</code> passando as chaves e valores como parâmetros.
+</p>
+
+```python
+>>> feira = dict(morangos=24, bananas=18, laranjas=12, melancias=3)
+```
+
+<p
+  align="capitalize"
+>
+  3ª Utilizando a função <code>zip</code> para concatenar listas para <code>chave:valor</code> dentro de um objeto <code>dict</code>.
+</p>
+
+```python
+>>> feira = dict(zip(['moragos', 'laranjas', 'melancias'], [24, 18, 3]))
+```
+
+<p
+  align="capitalize"
+>
+  4ª Utilizando uma lista de tuplas com items simbolizando <code>chave</code> e <code>valor</code> em um objeto <code>dict</code>.
+</p>
+
+```python
+>>> feira = dict([('laranjas', 24), ('melancias', 3), ('morangos', 36)])
+```
+
+<p
+  align="capitalize"
+>
+  5ª Utilizando um Dict Comprehensions
+</p>
+
+```python
+>>> feira = {name: idx + 1 for idx, name in enumerate(('morangos', 'laranjas', 'melancias'))}
+```
+
+<p
+  align="capitalize"
+>
+  6ª A forma mais estranha de se criar um dicionário é transformar um dicionário em dicionário.
+</p>
+
+```python
+>>> feira = dict({ 'morangos': 24, 'bananas': 18, 'laranjas': 12, 'melancias': 3 })
+```
+
+### Acessando Items e obtendo chave e valor
+
+<p
+  align="capitalize"
+>
+  Para acessar um item dentro de um dicionário em python, podemos utilizar a chave dentro da indexação.
+</p>
+
+```python
+>>> profile = { name: 'Armando Silva', age: 50, height: 1.70 }
+>>> profile[name]
+```
+
 <br
 />
+
 
 ## TÚPLAS
 
